@@ -1,0 +1,73 @@
+body {
+  background-color:#212121 !important;
+  color: #f9a916!important;
+}
+
+h1 {
+  font-family: "Germania One" !important;
+  font-size: 50px !important;
+}
+
+.margin-right20 {
+  margin-right: 20px;
+}
+
+.table-extra-condensed > tbody > tr > th,
+.table-extra-condensed > tfoot > tr > th,
+.table-extra-condensed > thead > tr > td,
+.table-extra-condensed > tbody > tr > td,
+.table-extra-condensed > tfoot > tr > td {
+    padding: 0 !important;
+    font-size: 17px;
+    font-family: sans-serif !important;
+    background-color: #212121 !important;
+    
+}
+
+.input-xs {
+    height: 20px !important;
+    padding: 5px 10px !important;
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+    border-radius: 3px !important;
+}
+
+
+button.btn.btn-success.btn-lg {
+  background-color: #f9a916;
+  color: #212121;
+  border-color: #212121;
+}
+
+button.btn.btn-success.btn-lg:hover{
+  background-color: white;
+}
+
+tr[ng-if="!selectedProducts.length"] > td[colspan="3"] {
+  color: #212121;
+  background-color: white;
+}
+td.ng-binding {
+  background-color: #212121 
+}
+
+td {
+  background-color: #212121;
+  border:1px white;
+}
+
+td:hover {
+  background-color: white;
+}
+
+td.form-inline {
+  border: 1px solid white; /* Add a subtle border */
+  box-shadow: 2px 2px 5px grey; /* Subtle shadow */
+}
+
+td.ng-binding {
+  border: 1px solid white; 
+}
+
+tr.ng-scope > td:nth-child(2) {
+  border: 1px solid white; }
